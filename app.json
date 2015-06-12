@@ -1,0 +1,44 @@
+{
+  "name": "tweetsense",
+  "description": "Stream live Twitter data into Mapsense.",
+  "keywords": [
+    "Twitter",
+    "Mapsense"
+  ],
+  "logo": "https://raw.githubusercontent.com/msoliter/tweetsense/master/logo.png",
+  "repository": "https://github.com/msoliter/tweetsense",
+  "success_url": "https://app.mapsense.co/dashboard",
+  "env": {
+    "WEB_CONCURRENCY": "0",
+    "WORKER_CONCURRENCY": "1",
+    "MAPSENSE_API_KEY": {
+      "description": "A Mapsense API key with the 'api' scope. Visit developer.mapsense.co to sign up!",
+      "required": true
+    },
+    "TWITTER_CONSUMER_KEY": {
+      "description": "Your Twitter API consumer key.",
+      "required": true
+    },
+    "TWITTER_CONSUMER_SECRET": {
+      "description": "Your Twitter API consumer secret.",
+      "required": true
+    },
+    "TWITTER_ACCESS_TOKEN_KEY": {
+      "description": "Your Twitter API access token key.",
+      "required": true
+    },
+    "TWITTER_ACCESS_TOKEN_SECRET": {
+      "description": "Your Twitter API access token secret.",
+      "required": true
+    },
+    "TWEETSENSE_UNIVERSE": {
+      "description": "The name of the Mapsense universe that Tweetsense should stream tweets into.",
+      "required": true,
+      "value": "tweetsense"
+    },
+    "TWEETSENSE_TRACK": {
+      "description": "One or more comma-separated Twitter keywords on which to filter incoming tweets.",
+      "required": true
+    }
+  }
+}
