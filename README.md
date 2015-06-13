@@ -1,6 +1,6 @@
 ## Tweetsense
 
-Tweetsense is a Heroku application for streaming live Twitter data to Mapsense. Using Mapsense's innovative geodata analysis tools, anyone can slice and dice Twitter data like a trainer data analyst. 
+Tweetsense is a Heroku application for streaming live Twitter data to Mapsense. Using Mapsense's innovative geodata analysis tools, anyone can slice and dice Twitter data like a trained data analyst. 
 
 Before you get started, make sure you have a Mapsense API key with the 'api' scope, as well as some Twitter credentials.
 
