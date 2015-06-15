@@ -5,8 +5,8 @@
     "Twitter",
     "Mapsense"
   ],
-  "logo": "https://raw.githubusercontent.com/msoliter/tweetsense/master/logo.png",
-  "repository": "https://github.com/msoliter/tweetsense",
+  "logo": "https://raw.githubusercontent.com/mapsense/tweetsense/master/logo.png",
+  "repository": "https://github.com/mapsense/tweetsense",
   "success_url": "https://app.mapsense.co/dashboard",
   "env": {
     "MAPSENSE_API_KEY": {

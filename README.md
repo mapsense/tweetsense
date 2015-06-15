@@ -16,3 +16,9 @@ heroku ps:scale worker=1 --app {your-tweetsense-heroku-app}
 
 Be aware that free Heroku dynos must sleep for a few hours each day, so to get the most of your Tweetsense deployment, make sure to use a Hobby ($7/month) dyno or better.
 
+### Common Issues
+
+- **I set everything up, but my universe didn't get created.** Make sure the Mapsense API key has the 'api' scope, or Tweetsense will be unable to create universes or push data.
+- **Something went wrong, how do I debug the application?** You can use the Heroku CLI to tail Tweetsense's error logs with `heroku logs --tail --app {my-tweetsense-app}`.
+
+For general help and support, feel free to e-mail us at support@mapsense.co.
